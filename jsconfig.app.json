@@ -1,0 +1,21 @@
+{
+  "extends": "./jsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ES2015",
+      "DOM"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./resources/*"
+      ]
+    }
+  },
+  "include": [
+    "resources/**/*.js",
+    "resources/**/*.vue",
+    "resources/js/app.js"
+  ]
+}
